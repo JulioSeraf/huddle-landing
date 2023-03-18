@@ -101,7 +101,7 @@ section#end h3{
 }
 footer{
     margin-top: 140px;
-    padding: 150px 0 50px 0;
+    padding: 150px 0 30px 0;
     color: white;
     background-color:  hsl(192, 100%, 9%);
 }
@@ -118,7 +118,7 @@ footer>div p{
     width: 80%;
     padding-left: 40px;
  }
- footer>div img{
+ footer>div > img{
     display: inline;
     float:left;
  }
@@ -130,19 +130,18 @@ footer>div p{
     line-height: 2.5em;
  }
  footer div#icons{
-    width: 90%;
     height: 100px;
-    border: 1px solid white;
     text-align: center;
  }
 
  footer > #icons > img{
+    float:none;
     display:inline-block;
+     padding: 10px;
     filter: invert(100%);
  }
  footer div#icons > p{
-    border: 1px solid black;
-    padding: 0;
+        padding: 10px 0;
     
  }
  
