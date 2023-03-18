@@ -101,10 +101,45 @@ section#end h3{
 }
 footer{
     margin-top: 140px;
-    padding: 150px 10px 0 10px;
+    padding: 150px 0 50px 0;
     color: white;
     background-color:  hsl(192, 100%, 9%);
 }
-footer img{
-
-    background-color: white}
+footer .logo{
+    filter:invert(100%);
+    width: 200px;
+}
+footer div{
+   
+    margin: 20px 20px;
+}
+footer>div p{
+    display: inline-block;
+    width: 80%;
+    padding-left: 40px;
+ }
+ footer>div img{
+    display: inline;
+    float:left;
+ }
+ footer ul{
+    padding: 20px;
+    list-style: none;
+ }
+ footer>ul li{
+    line-height: 2.5em;
+ }
+ footer div#icons{
+    width: 100%;
+ }
+ footer > div#icons>img{
+    border: 1px solid white;
+    filter: invert(100%);
+ }
+ footer div#icons > p{
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+    
+ }
+ 
