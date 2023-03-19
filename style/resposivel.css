@@ -1,4 +1,4 @@
-@media screen and (min-width: 620px ) {
+@media screen and (min-width: 660px ) {
     body{
         margin: 0;
         padding: 0;
@@ -16,7 +16,7 @@
 
   }
   section .divsec{
-    height: 30vh;
+    height: 250px;
     text-align: left;
     padding: 50px;
 
@@ -27,20 +27,21 @@
 
   }
   footer{
-    height: 500px;
+    height: 390px;
   }
   footer .logo{
     position: absolute;
   }
   footer #footinfo{
     display: inline-block;
-    width:30%;
+    width:40%;
+    max-width:320px;
   }
   footer #footlist{
-    padding-top: 100px;
     display: inline-block;
     text-align: center;
     width: 20%;
+    max-width: 300px;
 }
   footer #icons{
     display: inline-block;
@@ -52,8 +53,51 @@
   }
 }
 @media screen and (min-width: 998px) {
-    .img{
-        width: 50%;
+    header{
+        height:90vh;
     }
+    header .logo{
+        width:150px;
+    }
+    header div{
+        text-align: left;
+        width:32%;
+        padding:50px 20px;
+    }
+    header div > .but{
+        margin-left: 20px;
+    }
+    header >.img{
+        position: absolute;
+        width: 60%;
+        max-width: 800px;
+        top: 10%;
+        right: 0%;       
+    }
+    section{
+        height: 50vh;
+        min-height: 350px;
+        
+    }
+    section .img{
+        max-width:350px;
+    }
+     #end{
+        height: 150px;
+        min-height: 150px;
+     }
+     ul{
+        columns:2;
+     }
+     li{
+        padding-bottom: 50px;
+     }
+     footer #footlist{
+        width: 50%;
+        max-width: 600px;
+     }
+     
+    
+    
     
 }
