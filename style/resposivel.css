@@ -1,6 +1,59 @@
-@media screen and (min-width: 768px ) and ( max-width: 998px){
+@media screen and (min-width: 620px ) {
+    body{
+        margin: 0;
+        padding: 0;
+    background-color: rgb(249, 249, 249);
+  }
+  section .img{
+    width:40%;
+    max-width: 300px;
+    display:inline;
+    float: right;
+  }
+  section p {
+    padding: 0;
+    padding-top: 10px;
 
+  }
+  section .divsec{
+    height: 30vh;
+    text-align: left;
+    padding: 50px;
+
+  }
+  section #divflow{
+    display: inline;
+    float: left;
+
+  }
+  footer{
+    height: 500px;
+  }
+  footer .logo{
+    position: absolute;
+  }
+  footer #footinfo{
+    display: inline-block;
+    width:30%;
+  }
+  footer #footlist{
+    padding-top: 100px;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
 }
-@media screen and (min-width: 998px){
+  footer #icons{
+    display: inline-block;
+    width: 20%;
+  }
+  footer > #icons > img{
+    margin-bottom: 70%;
+    width: 10%;
+  }
+}
+@media screen and (min-width: 998px) {
+    .img{
+        width: 50%;
+    }
     
 }

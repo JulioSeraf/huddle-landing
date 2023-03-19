@@ -11,9 +11,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100vw;
-}
 header{
     background-color: hsl(193, 100%, 96%);
     position: relative;
@@ -110,7 +107,6 @@ footer .logo{
     width: 200px;
 }
 footer div{
-   
     margin: 20px 20px;
 }
 footer>div p{
@@ -126,7 +122,7 @@ footer>div p{
     padding: 20px;
     list-style: none;
  }
- footer>ul li{
+ footer> #footlist li{
     line-height: 2.5em;
  }
  footer div#icons{
